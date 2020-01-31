@@ -1,0 +1,10 @@
+CREATE TABLE cliente
+(
+id INT NOT NULL AUTO_INCREMENT,
+nome VARCHAR (60) NOT NULL,
+data_nascimento DATE,
+telefone CHAR (8),
+PRIMARY KEY (Id) );#
+
+insert into cliente (nome, data_nascimento, telefone) values ('Ricardo', '1991-11-22',12345678);
+insert into cliente (nome, data_nascimento, telefone) values ('Jesus', '0000-01-29',12345678);
